@@ -5,7 +5,7 @@ Version:	0.1.0
 Release:	1
 License:	GPL
 Group:		X11/Applications/Graphics
-Source0:	http://prdownloads.sourceforge.net/dachshund/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/dachshund/%{name}-%{version}.tar.gz
 URL:		http://dachshund.sourceforge.net/
 BuildRequires:	gtk+2-devel
 BuildRequires:	libgnome-devel >= 1.96.0
@@ -13,7 +13,6 @@ BuildRequires:	libgnomeui-devel >= 1.96.0
 BuildRequires:	libxml2-devel >= 2.4.12
 BuildRequires:	python
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 Dachshund is UML visual modeling tool for GNOME.
