@@ -14,8 +14,6 @@ BuildRequires:	libxml2-devel >= 2.4.12
 BuildRequires:	python
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 Dachshund is UML visual modeling tool for GNOME.
