@@ -1,4 +1,5 @@
 Summary:	UML Visual Modeling Tool
+Summary(pl):	Narzêdzie do wizualnego modelowania UML
 Name:		dachshund
 Version:	0.1.0
 Release:	1
@@ -17,6 +18,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Dachshund is UML visual modeling tool for GNOME.
+
+%description -l pl
+Dachshund to narzêdzie do wizualnego modelowania UML dla GNOME.
 
 %prep
 %setup -q
@@ -38,5 +42,12 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README
 %attr(755,root,root) %{_bindir}/*
+# cannot these be simplified?
+%dir %{_datadir}/dachshund
+%dir %{_datadir}/dachshund/%{version}
+%dir %{_datadir}/dachshund/%{version}/pixmaps
+%dir %{_datadir}/dachshund/%{version}/pixmaps/*
 %{_datadir}/dachshund/%{version}/pixmaps/*/*
+%dir %{_datadir}/dachshund/%{version}/python
+%dir %{_datadir}/dachshund/%{version}/python/*
 %{_datadir}/dachshund/%{version}/python/*/*
