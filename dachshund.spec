@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Graphics
 Source0:	http://dl.sourceforge.net/dachshund/%{name}-%{version}.tar.gz
+# Source0-md5:	38593f17084213f797fc4989017da1c8
 URL:		http://dachshund.sourceforge.net/
 BuildRequires:	gtk+2-devel
 BuildRequires:	libgnome-devel >= 1.96.0
