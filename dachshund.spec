@@ -1,5 +1,5 @@
 Summary:	UML Visual Modeling Tool
-Summary(pl.UTF-8):   Narzędzie do wizualnego modelowania UML
+Summary(pl.UTF-8):	Narzędzie do wizualnego modelowania UML
 Name:		dachshund
 Version:	0.1.0
 Release:	1
